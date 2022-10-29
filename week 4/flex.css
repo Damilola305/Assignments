@@ -1,0 +1,99 @@
+/* html, body { 
+  height: 100%;
+  width: 100%;
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  hsl(0, 0%, 95%);
+}
+
+.main {
+    width: 50%;
+    display: flex; 
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.first-box {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.second-box {
+    background-color:  hsl(184, 100%, 22%);
+    padding: 2em;
+}
+
+.third-box {
+    background-color:  hsl(179, 100%, 13%);
+    padding: 2em;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+div h1 {
+    color: hsl(0, 0%, 95%);
+    font-size: 25px;
+    font-weight: 400px;
+    font-family: 'Lexend Deca', sans-serif'Lexend Deca', sans-serif;
+    padding-bottom: 15px;
+
+}
+
+div p {
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 700px;
+    font-family:'Big Shoulders Display', cursive;
+    padding-bottom: 20px;
+}
+
+div img {
+    padding-bottom: 2em;
+    
+}
+
+.btn {
+    padding: 15px;
+    margin-top: 45px;
+    width: 80%;
+    border: none;
+    border-radius: 30px;
+    background-color:  hsl(0, 0%, 95%);
+}
+
+.grid-btn {
+   padding: 15px;
+    margin-top: 45px;
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: lightblue;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+#btn-one {
+  color: hsl(31, 77%, 52%);
+}
+
+#btn-two {
+    color: hsl(184, 100%, 22%);
+}
+
+#btn-three {
+    color: hsl(179, 100%, 13%);
+}
+

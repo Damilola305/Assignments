@@ -1,0 +1,127 @@
+body {
+    height: 100%;
+    width: 100%;
+     background: lightblue;
+     box-sizing: border-box;
+     margin: 15px;
+  }
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    line-height: 100px;
+  }
+  
+  .container {
+    height: 700px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: #bbdbed;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px 2px #849199;
+  }
+  .container-login {
+    height: 250px;
+    width: 40%;
+    border-radius: 5px;
+    background-color: #bbdbed;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px 2px #849199;
+  }
+  
+  .container-img {
+     height: 300px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #bbdbed;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px 2px #849199;
+  }
+  
+  input[type=text],select {
+     width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-top: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+     box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  input[type=date], select {
+     width: 60%;
+    padding: 12px 20px;
+    margin: 5px 8px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+     box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  input[type=email], select {
+     width: 60%;
+    padding: 12px 20px;
+    margin: 5px 8px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+     box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  input[type=password], select {
+     width: 60%;
+    padding: 12px 20px;
+    margin: 5px 8px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+     box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  input[type=color], select {
+     width: 50%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+     box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  #btn {
+    width: 60%;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+    background-color: #28a1d1;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 30px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  #btn-success {
+     width: 20%;
+  }
