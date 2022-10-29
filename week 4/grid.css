@@ -45,12 +45,12 @@ main div {
 }
 
 .item-d {
-    background-color: rgb(69, 154, 187);
+    background-color: rgb(69, 154, 188);
     grid-area: d;
 }
 
 .item-e {
-    background-color: rgb(69, 154, 187);
+    background-color: rgb(69, 154, 188);
     grid-area: e;
 }
 
